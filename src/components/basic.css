@@ -1,0 +1,80 @@
+/* Reset some default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Basic styles for the navbar and logo */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 0;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.navbar {
+  list-style: none;
+}
+
+.navbar li {
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.navbar li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Styles for sections and forms */
+section {
+  padding: 50px 0;
+}
+
+h1,
+h2 {
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+input,
+textarea {
+  margin-bottom: 10px;
+  padding: 5px;
+}
+
+button {
+  padding: 10px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+/* Responsive styles */
+@media (max-width: 767px) {
+  .logo {
+    font-size: 20px;
+  }
+
+  .navbar li {
+    display: block;
+    margin: 10px 0;
+  }
+}
